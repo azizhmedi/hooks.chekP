@@ -1,0 +1,167 @@
+.navbar-container {
+  /* border: 2px rgb(255, 255, 255) solid; */
+  border-bottom: 1px solid #dee2e6 !important;
+  background-color: #000 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-logo {
+  padding: 7px;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.stars {
+  /* border: 2px rgb(240, 19, 19) solid; */
+  padding: 20px;
+  /* text-align: center; */
+}
+#searchInput {
+  width: 18%;
+  border: 1px solid #000;
+  border-radius: 30px;
+  font-size: 16px;
+  background-image: url("https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png");
+  background-position: 10px 7px;
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+  opacity: 0.9;
+}
+ul {
+  /* border: 2px rgb(240, 19, 19) solid; */
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  font-size: 15px;
+  width: 50%;
+  padding: 0;
+  color: white;
+  cursor: pointer;
+  list-style: none;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+li:hover {
+  color: red;
+}
+.navbar-container button {
+  all: unset;
+  background-color: red;
+  color: white;
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  border-radius: 0.25rem;
+  font-size: 14px;
+}
+/* navbar.jsx */
+/* list.jsx */
+.List-containr {
+  /* border: 2px black solid; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin-left: 360px;
+  padding: 5px;
+}
+.List-containr-hero {
+  /* border: 2px solid red; */
+  height: 30vh;
+  height: 40vh;
+  width: 108vh;
+}
+.List-containr-btns {
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 20px;
+}
+.intro-containr {
+  /* border: 2px rgb(195, 255, 0) solid; */
+  display: flex;
+  justify-content: space-between;
+  gap: 265px;
+  /* margin: 25px; */
+  align-items: center;
+}
+.intro-containr h2 {
+  font-size: 2rem;
+}
+/*card  */
+.card-cadre {
+  /* border:  2px solid orange; */
+  margin: 15px;
+}
+.card-containr {
+  border: 1px solid rgb(238, 238, 238);
+  background-color: hsl(210, 50%, 98%);
+  width: 251px;
+  height: 350px;
+}
+.card-containr img {
+  /* filter: brightness(0.5); */
+  object-fit: cover;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.card-containr h6 {
+  font-weight: 600;
+  color: #8f8f8f;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 15px;
+  font-size: larger;
+  letter-spacing: 0.2px;
+}
+h6:hover {
+  color: red;
+}
+.card-containr p {
+  color: #303030;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: -40px;
+  margin-left: 15px;
+}
+.icon-card {
+  /* margin-left: 15px; */
+  /* border: 2px solid red; */
+  position: absolute;
+  /* bottom: 350px; */
+  font-size: 10px;
+  margin-left: 150px;
+  margin-top: -65px;
+}
+/*button.jsx  */
+.btn-btn {
+  all: unset;
+  /* border: 2px solid black; */
+  display: flex;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px;
+  height: 20px;
+}
+.restart-btn {
+  /* border: solid white 2px; */
+  margin-right: 26px;
+}
+.btn-add-movie {
+  /* border: solid rgb(152, 39, 39) 2px;  */
+  all: unset;
+  /* border: 2px solid black; */
+  display: flex;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px;
+  height: 20px;
+}
